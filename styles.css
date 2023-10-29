@@ -11,8 +11,14 @@ html {
     width: 992px;
     height: 290px;
     margin: 80px auto;
-    position: absolute;
+    position: relative;
     padding: 90px 20px 0 20px;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 23px;
 }
 
 .keys {
@@ -20,6 +26,7 @@ html {
     width: 949px;
     height: 180px;
     padding-left: 2px;
+    position: absolute;
 }
 
 .key {
@@ -39,3 +46,4 @@ html {
     width: 32px;
     height: 100px;
 }
+
