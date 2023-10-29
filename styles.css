@@ -31,3 +31,11 @@ html {
     float: left;
 }
 
+.key.black--key::after {
+    background-color: #1d1e22;
+    content: "";  /* The content property is used to set or override the content of the element. */
+    position: absolute;
+    left: -18px;
+    width: 32px;
+    height: 100px;
+}
